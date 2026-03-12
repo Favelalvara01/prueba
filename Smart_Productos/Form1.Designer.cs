@@ -48,7 +48,7 @@
             // 
             // btnTV
             // 
-            this.btnTV.BackColor = System.Drawing.Color.DarkGray;
+            this.btnTV.BackColor = System.Drawing.Color.Red;
             this.btnTV.Font = new System.Drawing.Font("Bauhaus 93", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTV.Location = new System.Drawing.Point(24, 96);
             this.btnTV.Name = "btnTV";
