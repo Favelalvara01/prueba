@@ -48,7 +48,7 @@
             // 
             // btnTV
             // 
-            this.btnTV.BackColor = System.Drawing.Color.DarkGray;
+            this.btnTV.BackColor = System.Drawing.Color.Red;
             this.btnTV.Font = new System.Drawing.Font("Bauhaus 93", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTV.Location = new System.Drawing.Point(24, 96);
             this.btnTV.Name = "btnTV";
@@ -72,7 +72,7 @@
             // 
             // btnPeakers
             // 
-            this.btnPeakers.BackColor = System.Drawing.Color.DarkGray;
+            this.btnPeakers.BackColor = System.Drawing.Color.Red;
             this.btnPeakers.Font = new System.Drawing.Font("Bauhaus 93", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPeakers.Location = new System.Drawing.Point(282, 96);
             this.btnPeakers.Name = "btnPeakers";
@@ -97,7 +97,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(277, 35);
             this.label1.Name = "label1";
