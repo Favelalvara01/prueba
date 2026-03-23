@@ -40,6 +40,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCatalogo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -107,10 +108,10 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(564, 96);
+            this.txtResultado.Location = new System.Drawing.Point(564, 75);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(353, 148);
+            this.txtResultado.Size = new System.Drawing.Size(353, 244);
             this.txtResultado.TabIndex = 5;
             // 
             // btnSalir
@@ -183,6 +184,16 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // btnCatalogo
+            // 
+            this.btnCatalogo.Location = new System.Drawing.Point(657, 401);
+            this.btnCatalogo.Name = "btnCatalogo";
+            this.btnCatalogo.Size = new System.Drawing.Size(119, 40);
+            this.btnCatalogo.TabIndex = 12;
+            this.btnCatalogo.Text = "Catálogo";
+            this.btnCatalogo.UseVisualStyleBackColor = true;
+            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -190,6 +201,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(967, 491);
+            this.Controls.Add(this.btnCatalogo);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -229,6 +241,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button btnCatalogo;
     }
 }
 
